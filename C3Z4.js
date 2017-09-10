@@ -10,9 +10,9 @@ var ukupno=0;
 
 for (var i=0; i < niz.length; i++) {
 	if (niz[i]<=50) {
-		ukupno += niz[i]+(niz[i]/(100*18));
+		ukupno += niz[i]+((niz[i]/100)*18);
 	} else { 
-		ukupno += niz[i]+(niz[i]/(100*8));
+		ukupno += niz[i]+((niz[i]/100)*8);
 	}
 }
 
